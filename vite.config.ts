@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/', // user site at https://nimdielegal.github.io
+  base: '/nimdielegal/', // <-- critical for project sites
 })
+
